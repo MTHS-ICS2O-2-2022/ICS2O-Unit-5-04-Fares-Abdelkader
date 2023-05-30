@@ -8,15 +8,6 @@
 'use strict'
 
 /**
- * Check service worker.
- */
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-UNIT-5-04-HTML/sw.js", {
-    scope: "/ICS2O-UNIT-5-04-HTML/",
-  })
-}
-
-/**
  * Input.
  */
 

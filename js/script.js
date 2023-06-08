@@ -25,11 +25,11 @@ function buttonClicked() {
 
   if ((tuesday.checked == true || thursday.checked == true) || (age >= 12 && age <= 21)) {
     document.getElementById("output").innerHTML =
-      "You are eligible for student pricing!"
-    console.log("eligible for student pricing")
+      "You are eligible to go to the museum!"
+    console.log("eligible to go to the museum")
   } else {
     document.getElementById("output").innerHTML =
-      "You must pay regular pricing."
-    console.log("not eligible for student pricing")
+      "You are not eligible to go to the museum."
+    console.log("not eligible to go to the museum ")
   }
 }
